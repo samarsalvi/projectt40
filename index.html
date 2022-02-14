@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+ 
+ <!--Link game.js and player.js-->
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+   
+  <!-- I've added line number 13 by myself, thought that might be the issue -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+  <!--I've changed the versions too-->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+
+ <!--Add database config here below-->
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyDxZmLxPQxZoxLGGltjJ8kKL0ODmu0xZTM",
+   authDomain: "class39-5195c.firebaseapp.com",
+   databaseURL: "https://class39-5195c-default-rtdb.firebaseio.com",
+    projectId: "class39-5195c",
+   storageBucket: "class39-5195c.appspot.com",
+    messagingSenderId: "444794753195",
+   appId: "1:444794753195:web:3f205ba2263b6b03b667ee"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  
+</script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html
